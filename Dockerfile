@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 public.ecr.aws/q3h7b4o8/heliocloud/helio-notebook:2024.05.15
+FROM public.ecr.aws/q3h7b4o8/heliocloud/helio-notebook:2024.05.15
 
 WORKDIR /notebook
 COPY . /notebook
