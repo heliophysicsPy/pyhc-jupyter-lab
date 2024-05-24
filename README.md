@@ -27,7 +27,7 @@ To access the server, open this file in a browser:
 
 ## File location
 
-The argument, `-v $(pwd):/notebook/`, is passed to docker, which mounts the home directory in Jupyter Lab to folder where you started the container. This will ensure that any edits made in Jupyter Lab will be saved to your machine.
+The argument, `-v $(pwd)/jupyter-lab/:/notebook/`, is passed to docker, which mounts the home directory in Jupyter Lab to `jupyter-lab/` in the folder where you started the container. This will ensure that any edits made in Jupyter Lab will be saved to your machine.
 
 ## Tutorial Notebooks
 
